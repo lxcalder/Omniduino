@@ -1,0 +1,58 @@
+{
+  "packages":
+  [
+    {
+      "name": "Omniduino",
+      "maintainer": "ML",
+      "websiteURL": "http://www.arduino.cc/en/Reference/HomePage",
+      "help":
+      {
+        "online": "http://www.arduino.cc/en/Reference/HomePage"
+      },
+      "platforms":
+      [
+        {
+          "name": "Omniduino Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "file://C:/Omniduino-1.0.0.zip",
+          "archiveFileName": "Omniduino-1.0.0.zip",
+          "checksum": "SHA-256:019dd756f3c8cd77edd66108ab122471eac3c0270d44efcb89246f3a7a2f6c7d",
+          "size": "7100579",
+          "boards": [
+    {
+      "name": "M0"
+    }         
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
